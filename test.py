@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def delete_starting_evens(lst):
     elemente = range(len(lst))
     output = []
@@ -11,9 +10,3 @@ def delete_starting_evens(lst):
     return output
 
 
-lista = [4, 8, 10, 11, 12, 15]
-
-print(delete_starting_evens(lista))
-=======
-#This is a practice file
->>>>>>> faa932103a0a85344653b43b46b39721351977fa
