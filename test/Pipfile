@@ -4,9 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
 matplot = "*"
-lambda-utility = "==0.6.7"
 
 [dev-packages]
 

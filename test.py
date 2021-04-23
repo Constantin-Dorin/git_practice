@@ -48,4 +48,17 @@ def reverse_string(word):
   
   return "".join(output)
 
+def max_key(my_dictionary):
+  top_value = 0
+  return_key = 0
+  for key, value in my_dictionary.items():
+    if value > top_value:
+      return_key = key
+  return return_key
+
+
+max_key = {1:10, 2:3, 4:5}
+
+for key, value in max_key.items():
+  print(value)
 
